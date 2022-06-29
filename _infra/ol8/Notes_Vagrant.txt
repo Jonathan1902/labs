@@ -1,0 +1,14 @@
+Descrição: Irei anotar brevemente links que usei de estudo para montar o meu repositório, referente os arquivos que estão nesses diretório, ou seja, nesse caso serão links relacionados ao Vagrant e sua utilização. Além disso, colocarei links complementares que julgar necessário de acordo com o que for sendo desenvolvido (Ex.: Virtualização, Libvirt, VirtualBox, KVM, etc).
+
+--## Vagrant (O óbvio precisa ser escrito):
+	- https://www.vagrantup.com/docs
+
+--## Vagrant Boxes:
+	- https://app.vagrantup.com/boxes/search
+
+--## Instalação Libvirt e configuração:
+	- https://fedoramagazine.org/full-virtualization-system-on-fedora-workstation-30
+	- https://developer.fedoraproject.org/tools/vagrant/vagrant-libvirt.html
+
+--## Virtualbox no Fedora:
+
