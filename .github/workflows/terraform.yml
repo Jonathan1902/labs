@@ -18,6 +18,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: debug role
+        run: echo "ROLE ARN = ${{ secrets.AWS_ROLE_TO_ASSUME }}" | cat -A
+        
       - name: Configure AWS credentials (assume role)
         uses: aws-actions/configure-aws-credentials@v4
         with:
