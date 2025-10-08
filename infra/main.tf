@@ -7,7 +7,4 @@ resource "aws_instance" "example" {
     Name = "jonnies"
   }
 
-  provisioner "local-exec" {
-    command = "echo ${self.public_ip} > ../ansible/inventory/hosts.ini"
-  }
 }

@@ -3,8 +3,8 @@
   become: yes
   tasks:
     - name: Instalar Apache
-      apt:
-        name: apache2
+      dnf:
+        name: httpd
         state: present
         update_cache: yes
 
@@ -15,6 +15,6 @@
 
     - name: Iniciar e habilitar Apache
       service:
-        name: apache2
+        name: httpd
         state: started
         enabled: yes
